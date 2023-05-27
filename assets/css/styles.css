@@ -4,7 +4,7 @@
 :root {
   --header-height: 3rem;
   --font-semi: 600;
-  /*===== Colores =====*/
+  /*===== Colors =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
@@ -75,7 +75,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  color: rgb(53, 192, 247);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -158,7 +158,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: rgb(53, 192, 247);
 }
 
 .nav__logo {
@@ -179,7 +179,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: rgb(53, 192, 247);
 }
 
 /*=== Show menu ===*/
@@ -204,7 +204,7 @@ img {
 }
 
 .home__title-color {
-  color: var(--first-color);
+  color: rgb(0, 255, 242);
 }
 
 .home__social {
@@ -231,7 +231,7 @@ img {
 }
 
 .home__blob {
-  fill: var(--first-color);
+  fill: rgb(53, 192, 247);
 }
 
 .home__blob-img {
@@ -241,7 +241,7 @@ img {
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: rgb(53, 192, 247);
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -313,7 +313,7 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background-color: rgb(53, 192, 247);
   height: .25rem;
   border-radius: .5rem;
   z-index: var(--z-back);
